@@ -1,0 +1,19 @@
+.navigation{
+    height: 50px;
+    a{
+        padding: 10px;
+        display: block;
+        float: left;
+        text-decoration: none;
+        background: green;
+        color: #FFF;
+        margin-right: 20px;
+        &:hover{
+            background: #CCC;
+        }
+    }
+    border-bottom: 2px dotted #333;
+}
+.clear{
+    clear: both;
+}
