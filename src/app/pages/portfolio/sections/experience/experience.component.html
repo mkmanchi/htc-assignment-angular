@@ -1,0 +1,76 @@
+<section id="cv">
+    <div class="container">
+        <h2><strong>Curriculum Vitae</strong></h2>
+        <span class="bar-title mb-5"></span>
+        <div class="row">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>Education</strong></h4>
+                <ul class="timeline">
+                    <li>
+                        <h5>Bachelor's degree</h5>
+                        <em class="font-italic">Computer Science<br> SSITMS(Sri Srinivasa Institute of Technology & Mananagement Studies) - JNTU</em>
+                        <p class="year p-2 d-flex justify-content-center">2001 - 2005</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>Experiences</strong></h4>
+                <ul class="timeline">
+                    <li *ngFor="let experience of experiences;">
+                        <h5>{{experience.title}}</h5>
+                        <em>{{experience.company}}</em>
+                        <br/>
+                        <em>{{experience.location}}</em>
+                        <div class="d-flex flex-row">
+                            <p class="year p-2 d-flex justify-content-center">{{experience.period}}</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="container row">
+                    <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <h4><strong>Languages</strong></h4>
+                        <div class="noProgress langue">
+                            <span class=""><strong> English</strong> <i class="val"> Good Level</i></span>
+                        </div>
+                        <div class="noProgress langue">
+                            <span class=""><strong> Telugu</strong> <i class="val"> Fluent</i></span>
+                        </div>
+                        <div class="noProgress langue">
+                            <span class=""><strong> Kannada</strong> <i class="val"> Good Level</i></span>
+                        </div>
+                        <div class="noProgress langue">
+                            <span class=""><strong> Tamil</strong> <i class="val"> Good Level</i></span>
+                        </div>
+                        <div class="noProgress langue">
+                            <span class=""><strong> Hindi</strong> <i class="val"> Good Level</i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container row">
+                    <div class="mt-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <h4><strong>Interests</strong></h4>
+                        <div class="noProgress langue">
+                            <span>
+                                Photography
+                            </span>
+                        </div>
+
+                        <div class="noProgress langue">
+                            <span>
+                                Cooking
+                            </span>
+                        </div>
+                        <div class="noProgress langue">
+                            <span>
+                                Explore
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
