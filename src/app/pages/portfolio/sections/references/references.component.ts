@@ -10,6 +10,16 @@ import {CommonModule} from "@angular/common";
 })
 export class ReferencesComponent {
   references:any=[{
+    personImg: "assets/images/james.jpg",
+    personFullname: 'James Vu',
+    personPosition: "QAEIII",
+    personCompany: 'Behavox',
+    message: "I had the privilege of collaborating closely with Mahendra, and I can confidently say that he is an exceptional Frontend Developer.\n"+
+    "Mahendra's proactive attitude towards tackling UI bugs was truly remarkable. Whenever we encountered new issues, he would swiftly dive in, analyze the situation, and come up with effective solutions. His dedication to ensuring the smooth functioning of our UI was evident in every task he undertook.\n"+
+    "Moreover, Mahendra's genuine heart and friendly demeanor made him a joy to work with. He consistently showed attentiveness and kindness towards his colleagues, creating a positive and supportive atmosphere within our team.\n"+
+    "I really recommend Mahendra to any team seeking a talented and dedicated frontend developer. His skills and personality make him a valuable asset, and I am grateful for the opportunity to have worked alongside him.\n"+
+    "Thank you for everything, Mahendra!"
+  },{
     personImg: "assets/images/kirill.jpeg",
     personFullname: 'Kirill Barmin',
     personPosition: "SSE",
