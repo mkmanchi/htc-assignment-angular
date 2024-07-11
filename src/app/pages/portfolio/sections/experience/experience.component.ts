@@ -14,6 +14,12 @@ export class ExperienceComponent {
 
   experiences:any=[
     {
+      title: "Technical Lead / Manager",
+      company: 'HTC Global Services',
+      location: 'Bengaluru, Karnataka',
+      period: "Feb'2024 - tilldate",
+    },
+    {
       title: "Senior FE Developer",
       company: 'Logiciel Behavox (Canada) Ltd',
       location: 'Montreal, QC, CA',
