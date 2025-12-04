@@ -14,7 +14,7 @@ export class ExperienceComponent {
 
   experiences:any=[
     {
-      title: "Technical Lead / Manager",
+      title: "Technical Manager/Architect",
       company: 'HTC Global Services',
       location: 'Bengaluru, Karnataka',
       period: "Feb'2024 - tilldate",
@@ -25,11 +25,11 @@ export class ExperienceComponent {
       location: 'Montreal, QC, CA',
       period: "Jun'2021 - Jan'2024 (2 years 8 months)",
     },{
-      title: "UI Engineer",
+      title: "UI Architect",
       company: 'Array Networks India Pvt. Ltd',
       period: "Nov'2016 - May'2021 (4 years 6 months)",
     },{
-      title: "Sr. Software Engineer",
+      title: "Staff Software Engineer",
       company: 'Dabee Technologies India Pvt. Ltd',
       period: "Sep'2014 - Oct'2016",
     },{
